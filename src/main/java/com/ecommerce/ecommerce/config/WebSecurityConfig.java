@@ -1,5 +1,7 @@
 package com.ecommerce.ecommerce.config;
 
+import com.ecommerce.ecommerce.security.AuthEntryPointJwt;
+import com.ecommerce.ecommerce.security.AuthTokenFilter;
 import com.ecommerce.ecommerce.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
